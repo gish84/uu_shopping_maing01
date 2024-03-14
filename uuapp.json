@@ -1,0 +1,30 @@
+{
+  "product": "script_req_demo",
+  "version": "0.1.0",
+  "license": "License Commercial",
+  "description": {
+    "en": "",
+    "cs": ""
+  },
+  "devkit": {
+    "development": {
+      "appBoxLocationUri": "----- VALUE REQUIRED -----",
+      "scriptRepositoryBaseUri": "----- VALUE REQUIRED -----",
+      "appDeploymentUri": null
+    }
+  },
+  "script_req_demo-uuscriptlib": {
+    "scriptList": [
+      {
+        "code": "script_req_demo/hello-world",
+        "srcPath": "hello-world.js"
+      },
+      {
+        "code": "script_req_demo/hello-helper",
+        "srcPath": "hello-helper.js"
+      }
+    ]
+  },
+  "uu_shopping_maing01-hi": {},
+  "uu_shopping_maing01-server": {}
+}
